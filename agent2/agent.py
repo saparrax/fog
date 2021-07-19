@@ -15,7 +15,7 @@ class Agent:
         self.generated_services_id = []
         self.service_execution = ServiceExecution(self)
         self.runtime = RunTime(self)
-        self.API = API(self, host="0.0.0.1")
+        self.API = API(self, host="0.0.0.0")
         self.API.start()
 
 
